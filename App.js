@@ -1,6 +1,27 @@
 import "./styles.css";
 import { Component } from "react";
 
+// App.js
+import React from 'react';
+import './style.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <Hero />
+      <About />
+      {/* Additional content */}
+    </div>
+  );
+}
+
+export default App;
+
+
 export default function App() {
   // Write this code in Navbar.js file
   class Navbar extends Component {
